@@ -7,6 +7,7 @@ export const homeObjOne = {
     headline: 'Best learning materials from IT sepcialists',
     description: 'Get access to our exclusive courses that allows you to boost your career',
     buttonLabel: 'Get started',
+    buttonDestination: 'home',
     imgStart: false,
     // i had problems with images in src because i used react-script PROTIP: Always use webpack never react-script
     img: 'images/svg-1.svg',
@@ -25,6 +26,7 @@ export const homeObjTwo = {
     headline: 'We offer personalized roadmap for every attendee',
     description: 'Keep getting better so you can\'t get it wrong',
     buttonLabel: 'Learn more',
+    buttonDestination: 'home',
     imgStart: true,
     // i had problems with images in src because i used react-script PROTIP: Always use webpack never react-script
     img: 'images/svg-2.svg',
@@ -40,9 +42,10 @@ export const homeObjThree = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'Join our team',
-    headline: 'Study smarter no harder',
+    headline: 'Study smarter not harder',
     description: 'Get everything set up and ready in under 10 minutes. All you need to do is add your information and you\'re ready to go.',
     buttonLabel: 'Start Now',
+    buttonDestination: 'home',
     imgStart: false,
     // i had problems with images in src because i used react-script PROTIP: Always use webpack never react-script
     img: 'images/svg-3.svg',
